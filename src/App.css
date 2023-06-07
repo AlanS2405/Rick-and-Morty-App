@@ -153,6 +153,10 @@ img {
     padding: 1em 2em;
 }
 
+.cardInfo > hr {
+    color: red;
+}
+
 .cardInfo h3 {
     text-align: center;
     font-family: 'Comfortaa', cursive;

@@ -22,7 +22,9 @@ const FormSearch = ({setIdLocation, randomID}) => {
     <form onSubmit={handleSubmmit}>
         <input 
             placeholder="Enter ID location" 
-            type="number" 
+            type="number"
+            min="1" 
+            pattern="^[0-9]+" 
             ref={idLocationValue}            
         />
         <button>Search</button>

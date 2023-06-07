@@ -13,7 +13,7 @@ body {
 
 
 input, button {
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 0.2em;
     border: solid black 2px;
     font-family: inherit;
@@ -121,9 +121,9 @@ img {
 .circle {
     display: block;
     position: relative;
-    top: 20px;
+    top: 19px;
     left: 5px;
-    width: 15px;
+    width: 12px;
     aspect-ratio: 1;
     border-radius: 50%;
     background-color: #ccc;
@@ -181,6 +181,13 @@ img {
 }
 
 @media (min-width:750px) {
+    input, button {
+        font-size: 1.5em;
+        padding: 0.2em;
+        border: solid black 2px;
+        font-family: inherit;
+    }
+
     .resident-container{
         display: grid;
         grid-template-columns: 1fr 1fr;

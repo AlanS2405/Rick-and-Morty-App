@@ -9,9 +9,9 @@
 
 
 input, button {
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding: 0.2em;
-    border: none;
+    border: solid black 2px;
     font-family: inherit;
 }
 
@@ -29,6 +29,12 @@ button {
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
     cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
 }
 
 img {

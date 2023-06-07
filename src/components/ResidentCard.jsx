@@ -13,6 +13,7 @@ const ResidentCard = ({url}) => {
     <article className="card">
         <header>
             <div className="header">
+                <span className={`circle ${resident?.status}`}></span>
                 <span className="status">{resident?.status}</span>
             </div>
             <img src={resident?.image} alt="" className="photo"/>

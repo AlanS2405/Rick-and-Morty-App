@@ -9,7 +9,7 @@ import FormSearch from './components/FormSearch'
 function App() {
 
   const randomID = getRandomNumber(126)
-  const [idLocation, setIdLocation] = useState(randomID)
+  const [idLocation, setIdLocation] = useState(1)
   const url = `https://rickandmortyapi.com/api/location/${idLocation}`
   const [location, getApiLocation, hasError] = useFetch(url)
 
